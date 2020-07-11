@@ -1,4 +1,22 @@
 .planet_img {
-  width: 300px;
+  max-width: 200px;
   background-size: cover;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.planet_wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 700px;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.planet_info {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 50px;
+  justify-content: space-around;
 }
