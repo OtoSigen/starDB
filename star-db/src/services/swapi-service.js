@@ -61,6 +61,7 @@ export default class SwapiService {
       name: person.name,
       birthYear: person.birth_year,
       height: person.height,
+      gender: person.gender,
     };
   };
 }
